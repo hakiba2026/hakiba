@@ -6,11 +6,11 @@ pages_build_output_dir = ".vercel/output/static"
 [[d1_databases]]
 binding = "DB"
 database_name = "haqiba-db"
-database_id = "PLACEHOLDER_D1_ID"
+database_id = "4130be70-3380-4fc6-9139-b5103aaf0c54"
 
 [[kv_namespaces]]
 binding = "KV"
-id = "PLACEHOLDER_KV_ID"
+id = "b1d08cf9f18443a8b1f61eb21aa69078"
 
 [[r2_buckets]]
 binding = "FILES"
