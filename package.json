@@ -1,0 +1,11 @@
+{
+  "name": "hakiba-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "core/*"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
