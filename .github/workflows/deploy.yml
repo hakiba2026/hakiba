@@ -20,10 +20,9 @@ jobs:
           cache: "npm"
 
       - name: Install dependencies
-        run: npm install
-        env:
-          npm_config_platform: linux
-          npm_config_arch: x64
+        run: |
+          npm ci
+          npm install --no-save lightningcss-linux-x64-gnu
 
       - name: Deploy Admin App
         run: npm run deploy:worker -w admin
