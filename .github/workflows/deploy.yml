@@ -20,7 +20,9 @@ jobs:
           cache: "npm"
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          rm -f package-lock.json
+          npm install
 
       - name: Deploy Admin App
         run: npm run deploy:worker -w admin
